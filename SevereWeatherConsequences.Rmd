@@ -6,7 +6,7 @@ output: html_document
 ---
 #Severe Weather and Consequences for population health and economy
 This research documents the consequences of Severe Weather as collected by NOAA.
-Special attention is placed on te population health consequences and the economic impact.
+Special attention is placed on the population health consequences and the economic impact.
 The data is gathered from [NOAA Storm Data](https://d396qusza40orc.cloudfront.net/repdata%2Fdata%2FStormData.csv.bz2) for years 1950-2011.
 This research will show what type of events have had greatest impact on population health and which ones had the greatest economic impact. 
 
@@ -80,7 +80,7 @@ Noaa_top_10_damages
 ```
 
 ##Comparing injuriesis and deaths is hard
-It is hard to sum fatalities and injuries therefore I wil consider them separate
+It is hard to sum fatalities and injuries therefore I will consider them separate
 
 ###Deadliest Event types
 ```{r 10 deadliets event types}
@@ -132,4 +132,4 @@ barplot(Noaa_top_10_injuries$Average_injuries_per_event,
 
   
 No conclusions can be drawn based on these aggregate number over 61 years of archive.
-Further study will need to be done to teh nature and combination of varous weather events.
+Further study will need to be done to the nature and combination of various weather events.
